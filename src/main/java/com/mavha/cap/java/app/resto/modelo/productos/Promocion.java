@@ -5,7 +5,6 @@
  */
 package com.mavha.cap.java.app.resto.modelo.productos;
 
-import com.mavha.cap.java.app.resto.modelo.pedidos.Pedible;
 import java.util.List;
 
 /**

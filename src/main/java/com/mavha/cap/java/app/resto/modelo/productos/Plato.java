@@ -9,7 +9,7 @@ package com.mavha.cap.java.app.resto.modelo.productos;
  *
  * @author mdominguez
  */
-public class Plato {
+public class Plato extends Item{
 
     private Integer calorias;
     private String descripcion;

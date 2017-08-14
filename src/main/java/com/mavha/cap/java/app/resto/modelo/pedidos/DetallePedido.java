@@ -5,6 +5,8 @@
  */
 package com.mavha.cap.java.app.resto.modelo.pedidos;
 
+import com.mavha.cap.java.app.resto.modelo.productos.Pedible;
+
 /**
  *
  * @author mdominguez

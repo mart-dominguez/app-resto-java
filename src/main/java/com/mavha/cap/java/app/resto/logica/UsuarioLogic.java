@@ -5,6 +5,7 @@
  */
 package com.mavha.cap.java.app.resto.logica;
 
+import com.mavha.cap.java.app.resto.modelo.usuarios.Usuario;
 import java.util.Date;
 
 /**
@@ -13,6 +14,7 @@ import java.util.Date;
  */
 public interface UsuarioLogic {
     
-    public void crearUsuario(String nombre,String email,Date fechaNacimiento);
+    public Usuario crearUsuario(String nombre,String clave);
+    public Usuario crearUsuario(String nombre,String clave,String mail);
     
 }

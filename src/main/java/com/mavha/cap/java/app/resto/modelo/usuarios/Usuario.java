@@ -5,8 +5,6 @@
  */
 package com.mavha.cap.java.app.resto.modelo.usuarios;
 
-import java.util.Date;
-
 /**
  *
  * @author mdominguez
@@ -14,18 +12,9 @@ import java.util.Date;
 public class Usuario {
     private Integer id;
     private String nombre;
+    private String clave;
     private String email;
-    private Date fechaNacimiento;
-
-    public Usuario() {
-    }
-
-    public Usuario(Integer id, String nombre, String email, Date fechaNacimiento) {
-        this.id = id;
-        this.nombre = nombre;
-        this.email = email;
-        this.fechaNacimiento = fechaNacimiento;
-    }
+    private Boolean esActivo;
 
     public Integer getId() {
         return id;
@@ -43,6 +32,14 @@ public class Usuario {
         this.nombre = nombre;
     }
 
+    public String getClave() {
+        return clave;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
+    }
+
     public String getEmail() {
         return email;
     }
@@ -51,13 +48,15 @@ public class Usuario {
         this.email = email;
     }
 
-    public Date getFechaNacimiento() {
-        return fechaNacimiento;
+    public Boolean getEsActivo() {
+        return esActivo;
     }
 
-    public void setFechaNacimiento(Date fechaNacimiento) {
-        this.fechaNacimiento = fechaNacimiento;
+    public void setEsActivo(Boolean esActivo) {
+        this.esActivo = esActivo;
     }
+
+    
     
     
 }
